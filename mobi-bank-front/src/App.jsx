@@ -1,11 +1,13 @@
-import React from "react";
+import React from 'react';
+import AllRoutes from './routes/rotas';
 
-const App = () => {
+
+function App() {
   return (
-    <div className="App">
-
-    </div>
-  )
+    <>
+      <AllRoutes />
+    </>
+  );
 }
 
 export default App;
