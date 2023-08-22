@@ -1,5 +1,8 @@
 # Mobi-Bank
 
+![Screenshot from 2023-08-21 22-03-06](https://github.com/wal-wizard/Mobi-Bank/assets/82295321/59a111ea-7d89-4303-bb05-b4e5dc31ced5)
+
+
 Introduzindo o Mobi-Bank - o seu banco pessoal e seguro na palma da mão! Com o Mobi-Bank, gerenciar suas finanças nunca foi tão fácil e conveniente. Acesse sua conta a qualquer hora e em qualquer lugar, permitindo que você faça transações bancárias, consulte o saldo, pague contas e transfira dinheiro de forma rápida e segura.
 
 Nossa interface intuitiva garante que até mesmo os usuários menos experientes em tecnologia possam navegar facilmente pelas funcionalidades do aplicativo. Além disso, a segurança é nossa maior prioridade: implementamos medidas de criptografia avançadas e autenticação em duas etapas para garantir a proteção de suas informações pessoais e financeiras.
