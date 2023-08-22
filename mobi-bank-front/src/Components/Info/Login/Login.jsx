@@ -24,22 +24,28 @@ const Login = () => {
       <div className="right--side">
         <form onSubmit={handleSubmit(onSubmit)}>
           <h1>Welcome Back!</h1>
-          <input {...register("example")} placeholder="User" />
+          <input
+            {...register("example", { required: true })}
+            placeholder="Email"
+            type="email"
+          />
           <input
             {...register("exampleRequired", { required: true })}
             placeholder="Password"
+            type="password"
           />
 
-          {errors.exampleRequired && <span>This field is required</span>}
+          {errors.exampleRequired && <span className="warn">This field is required</span>}
+          <br />
           <button type="submit">Login</button>
           <p>
             don't have an account ? <Link className="reg">register</Link>
           </p>
 
           <span className="recover">
-            forget your password? &nbsp;   
+            forget your password? &nbsp;
             <Link className="reg">Recover</Link>
-            </span>
+          </span>
         </form>
       </div>
     </div>
