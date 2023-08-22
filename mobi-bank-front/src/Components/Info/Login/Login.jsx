@@ -18,7 +18,7 @@ const Login = () => {
   return (
     <div className="Login__Component">
       <div className="left--side">
-        <img src="./Assets/mobi.png" alt="Bank Logo" className="bank__logo" />
+        <img src="/Assets/mobi.png" alt="Bank Logo" className="bank__logo" />
       </div>
 
       <div className="right--side">
@@ -35,16 +35,21 @@ const Login = () => {
             type="password"
           />
 
-          {errors.exampleRequired && <span className="warn">This field is required</span>}
+          {errors.exampleRequired && (
+            <span className="warn">This field is required</span>
+          )}
           <br />
           <button type="submit">Login</button>
           <p>
-            don't have an account ? <Link className="reg">register</Link>
+            don't have an account ?{" "}
+            <Link to={"/bank/register/"} className="reg">
+              register
+            </Link>
           </p>
 
           <span className="recover">
             forget your password? &nbsp;
-            <Link className="reg">Recover</Link>
+            <Link to={"/bank/recover/"} className="reg">Recover</Link>
           </span>
         </form>
       </div>
