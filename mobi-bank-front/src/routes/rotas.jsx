@@ -5,6 +5,11 @@ import Register from "../Components/Info/Register/Register";
 import Recover from "../Components/Info/Recover/Recover";
 
 
+import Home from "../Pages/Home";
+
+
+
+
 
 const AllRoutes = () => {
     return (
@@ -12,6 +17,7 @@ const AllRoutes = () => {
         <Route exact path="/" element={<Login />} />
         <Route exact path="/bank/register/" element={<Register />} />
         <Route exact path="/bank/recover/" element={<Recover />} />
+        <Route exact path="/bank/home/" element={<Home />} />
 
       </Routes>
     );
