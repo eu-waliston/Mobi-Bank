@@ -3,13 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import Login from "../Components/Info/Login/Login";
 import Register from "../Components/Info/Register/Register";
 import Recover from "../Components/Info/Recover/Recover";
-
-
 import Home from "../Pages/Home";
-
-
-
-
 
 const AllRoutes = () => {
     return (

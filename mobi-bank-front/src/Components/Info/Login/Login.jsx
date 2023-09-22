@@ -26,8 +26,8 @@ const Login = () => {
           <h1>Welcome Back!</h1>
           <input
             {...register("example", { required: true })}
-            placeholder="Email"
-            type="email"
+            placeholder="CPF"
+            type="text"
           />
           <input
             {...register("exampleRequired", { required: true })}
