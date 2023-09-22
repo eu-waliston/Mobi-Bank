@@ -31,10 +31,18 @@ const Register = () => {
           {errors.exampleRequired && (
             <span className="warn">This field is required</span>
           )}
-          <input
+                    <input
             {...register("example", { required: true })}
             placeholder="Email"
             type="email"
+          />
+          {errors.exampleRequired && (
+            <span className="warn">This field is required</span>
+          )}
+          <input
+            {...register("example", { required: true })}
+            placeholder="CPG"
+            type="text"
           />
           {errors.exampleRequired && (
             <span className="warn">This field is required</span>

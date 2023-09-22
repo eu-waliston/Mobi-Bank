@@ -2,7 +2,7 @@
 
 .Login__Component {
   width: 100%;
-  height: 100vh;
+  height: 110vh;
   display: flex;
   background-color: $bg--default;
 
@@ -39,19 +39,20 @@
       .warn {
         color: #df0b0b;
         position: relative;
-        top: -30px;
+        top: -40px;
       }
       width: 500px;
+      
       h1 {
         margin-bottom: 10px;
-        font-size: 2.5rem;
+        font-size: 2rem;
         color: #c4ae3d;
         text-align: center;
       }
       p {
         text-align: center;
         color: $text--color-1;
-        margin-top: 20px;
+        margin-top: 10px;
         .reg {
           text-transform: uppercase;
           color: #c4ae3d;
@@ -71,24 +72,24 @@
       input {
         text-indent: 10px;
         margin-bottom: 50px;
-        height: 50px;
+        height: 35px;
         background-color: transparent;
         border: 1px solid #fff;
         border-radius: 10px;
         color: #f5f5f5;
       }
       button {
-        width: 40%;
+        width: 30%;
         position: relative;
-        left: 31%;
-        height: 45px;
+        left: 33%;
+        height: 40px;
         border-radius: 10px;
         border: none;
         text-transform: uppercase;
         font-weight: bold;
         background-color: #c4ae3d;
         color: $bg--default;
-        font-size: 1.2rem;
+        font-size: 1rem;
         &:hover {
           cursor: pointer;
           opacity: 0.9;
