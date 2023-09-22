@@ -19,7 +19,7 @@
 
 ### DB schema to a user:
 
-    - Birth date
+    - Born date
     - full name
     - cpf
     - email
