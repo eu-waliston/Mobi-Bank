@@ -47,10 +47,6 @@ const Login = () => {
             </Link>
           </p>
 
-          <span className="recover">
-            forget your password? &nbsp;
-            <Link to={"/bank/recover/"} className="reg">Recover</Link>
-          </span>
         </form>
       </div>
     </div>
