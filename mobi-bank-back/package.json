@@ -4,16 +4,17 @@
   "description": "",
   "main": "App.js",
   "scripts": {
-    "start": "nodemon src/App.src"
+    "start": "nodemon src/API.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
     "helmet": "^7.0.0",
-    "mongoose": "^7.5.2",
+    "mongoose": "^7.5.3",
     "passport": "^0.6.0"
   },
   "devDependencies": {
