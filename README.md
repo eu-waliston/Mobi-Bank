@@ -19,7 +19,7 @@ Com o Mobi-Bank, a era das longas filas e deslocamentos até a agência chegou a
     - React Icons 
     - Sass
     - Google Fonts
-
+    - Fonts Aweasome
 ### Backend 
     - NodeJS
     - Express
